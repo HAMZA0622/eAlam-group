@@ -1,0 +1,64 @@
+.feature-card-container {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  margin-top: var(--dl-space-space-triplequarterunit);
+  align-items: center;
+  padding-left: var(--dl-space-space-triplequarterunit);
+  padding-right: var(--dl-space-space-triplequarterunit);
+  flex-direction: column;
+}
+.feature-card-image {
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unitandahalfunit);
+}
+.feature-card-text {
+  fill: var(--dl-color-text-h1);
+  color: var(--dl-color-text-h1);
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card-text1 {
+  fill: var(--dl-color-text-h1);
+  color: var(--dl-color-text-h1);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+
+.feature-card-root-class-name2 {
+  fill: #36393beb;
+  color: #36393beb;
+}
+.feature-card-root-class-name3 {
+  fill: #36393beb;
+  color: #36393beb;
+}
+.feature-card-root-class-name4 {
+  fill: #36393beb;
+  color: #36393beb;
+}
+.feature-card-root-class-name5 {
+  fill: #36393beb;
+  color: #36393beb;
+}
+.feature-card-root-class-name6 {
+  fill: #36393beb;
+  color: #36393beb;
+}
+.feature-card-root-class-name7 {
+  fill: #36393beb;
+  color: #36393beb;
+}
+@media(max-width: 767px) {
+  .feature-card-container {
+    width: 50%;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card-container {
+    width: 100%;
+  }
+}

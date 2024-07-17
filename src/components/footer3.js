@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -11,25 +10,24 @@ const Footer3 = (props) => {
       <div className="footer3-max-width thq-section-max-width">
         <div className="footer3-content">
           <div className="footer3-logo">
-            <Link to="/" className="footer3-navlink">
+            <a href="#Home" className="footer3-link">
               <img
-                alt={props.logoAlt}
-                src={props.logoSrc}
+                alt={props.logoAlt1}
+                src={props.logoSrc1}
                 className="footer3-image1"
               />
-            </Link>
+            </a>
           </div>
           <div className="footer3-links">
-            <Link to="/about-us" className="footer3-link2 thq-body-small">
-              {props.link2}
-            </Link>
-            <Link to="/company" className="footer3-link3 thq-body-small">
+            <a href="#Home" className="footer3-link1 HeadingThree">
+              {props.link1}
+            </a>
+            <a href="#services" className="footer3-link3 HeadingThree">
               {props.link3}
-            </Link>
-            <span className="footer3-link4 thq-body-small">{props.link4}</span>
-            <Link to="/contact" className="footer3-link5 thq-body-small">
+            </a>
+            <a href="#contact us" className="footer3-link5 HeadingThree">
               {props.link5}
-            </Link>
+            </a>
           </div>
           <div className="footer3-social-links">
             <svg
@@ -65,10 +63,10 @@ const Footer3 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer3-row">
             <div className="footer3-footer-links">
-              <span className="thq-body-small">© 2024 Ealam Groups</span>
-              <span className="thq-body-small">{props.privacyLink}</span>
-              <span className="thq-body-small">{props.termsLink}</span>
-              <span className="thq-body-small">{props.cookiesLink}</span>
+              <span className="Medium">© 2024 eAlam Group</span>
+              <span className="Small">{props.privacyLink}</span>
+              <span className="Small">{props.termsLink}</span>
+              <span className="Small">{props.cookiesLink}</span>
             </div>
           </div>
         </div>
@@ -78,29 +76,33 @@ const Footer3 = (props) => {
 }
 
 Footer3.defaultProps = {
-  link3: 'Company',
+  link3: 'Services',
+  logoSrc: '04d5089c-401a-4dba-b253-7f09e3fd4773',
   cookiesLink: 'Cookies Policy',
-  termsLink: 'Terms of Use',
-  logoAlt: 'eAlam Logo',
-  link4: 'Projects',
-  privacyLink: 'Privacy Policy',
+  link2: 'About Us',
+  logoAlt1: 'Creative Tim Logo',
+  logoSrc1: '/my img/icon/ealamgroup2-200h.png',
+  termsLink: 'Terms and Conditions',
   link5: 'Contact Us',
   link1: 'Home',
-  logoSrc: '/My Images/icons/5c53016f89a210fd4169381f528cb2ad-200h.webp',
-  link2: 'About Us',
+  logoAlt: 'eAlam Group Logo',
+  link4: 'FAQs',
+  privacyLink: 'Privacy Policy',
 }
 
 Footer3.propTypes = {
   link3: PropTypes.string,
+  logoSrc: PropTypes.string,
   cookiesLink: PropTypes.string,
+  link2: PropTypes.string,
+  logoAlt1: PropTypes.string,
+  logoSrc1: PropTypes.string,
   termsLink: PropTypes.string,
+  link5: PropTypes.string,
+  link1: PropTypes.string,
   logoAlt: PropTypes.string,
   link4: PropTypes.string,
   privacyLink: PropTypes.string,
-  link5: PropTypes.string,
-  link1: PropTypes.string,
-  logoSrc: PropTypes.string,
-  link2: PropTypes.string,
 }
 
 export default Footer3

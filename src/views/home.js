@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Hero1 from '../components/hero1'
-import Gallery5 from '../components/gallery5'
-import Features23 from '../components/features23'
-import Testimonial4 from '../components/testimonial4'
+import Navbar3 from '../components/navbar3'
+import PrimaryPinkButton from '../components/primary-pink-button'
+import OutlineGrayButton from '../components/outline-gray-button'
+import FeatureCard from '../components/feature-card'
+import Contact12 from '../components/contact12'
 import Footer3 from '../components/footer3'
 import './home.css'
 
@@ -14,91 +14,110 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Medica template</title>
-        <meta property="og:title" content="Medica template" />
+        <title>Soft UI Pro</title>
+        <meta property="og:title" content="Soft UI Pro" />
       </Helmet>
-      <header data-thq="thq-navbar" className="home-navbar">
-        <div className="home-left">
-          <Link to="/" className="home-navlink">
-            <img
-              alt="image"
-              src="https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&amp;content_type=image%2Fpng&amp;attachment_token=AOo0EEXHwWgbMd5ypj1gyBfa8QQB6fRujDtuFx3D5TpcIQJuzJ89bgA3HFIi3zneqz0GdvJfPco50Jxvy2Uc%2Fz9BlRyBtSmpJz9APPTlK4cWZy2TiyjF9j5EqHs7LCTDOrepdkFxVf2RLyik8CyXRKHseVQYYSRQ89SmzZN6kWcehjAkbDK6H5t1F2N3UEJDQA%2FrqBuk56QbOUABLcJlQFUDdaGJfzjQN1GVABiTt0z4ul9%2BFupYzaq%2FFJFMVyA1cz0WWnvvgjQBrFCfaqNBxIAqNRSahjrLm7jxYv6kM86Z3ekh%2B5SwZJNIRv%2FBzb2w538QBqflibPsC1kHD5wFbWHlsEOsA%2B6ibKX0tEbUlkEHkN8j7jwLgpbIz6fqnv89YgYErETwmoy9vcYaCgEbChBWpT0wytJ4oPmAFRImwUgBT9cb3HL2ifuE9OCn1Wcouz%2F0%2Bk6QhHVuMkeWwj%2BJpQkm3RWHNakhRbvcwlmaogH35a50MEBHpciTMTxDR078XpGUzwq%2B3D8hy9YWg1BbYMQy6OdefInFFc7AWZQrXCeGA2qUmMjbxAeKDxMUY1bHz3Wz%2F1GtfNYGp3YfvQCCkyu%2FoL%2FTareerC1L&amp;sz=w512"
-              className="home-logo"
-            />
-          </Link>
-          <nav className="home-links">
-            <Link to="/" className="home-link">
-              Home
-            </Link>
-            <Link to="/about-us" className="home-link1">
-              About Us
-            </Link>
-            <Link to="/company" className="home-link2">
-              Company
-            </Link>
-            <Link to="/contact" className="home-link3">
-              Contact
-            </Link>
-          </nav>
-        </div>
-        <div data-thq="thq-navbar-btn-group" className="home-right">
-          <Link to="/login" className="home-book button button-main">
-            <span className="home-text">Login</span>
-          </Link>
-        </div>
-        <div data-thq="thq-burger-menu" className="home-burger-menu">
-          <svg viewBox="0 0 1024 1024" className="home-icon">
-            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-          </svg>
-        </div>
-        <div data-thq="thq-mobile-menu" className="home-mobile-menu">
-          <div
-            data-thq="thq-mobile-menu-nav"
-            data-role="Nav"
-            className="home-nav"
-          >
-            <div className="home-container1">
-              <img
-                alt="image"
-                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-                src="/My Images/icons/5c53016f89a210fd4169381f528cb2ad-1500h.webp"
-                srcSet="Branding//logo-1500h.webp 1200w, Branding/logo-tablet.webp 800w, Branding/logo-mobile.webp 480w"
-                className="home-image"
-              />
-              <div data-thq="thq-close-menu" className="home-menu-close">
-                <svg viewBox="0 0 1024 1024" className="home-icon2">
-                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                </svg>
+      <Navbar3></Navbar3>
+      <div className="home-hero">
+        <div id="Home" className="home-container01">
+          <div className="home-card">
+            <h1 className="home-text">Well Come To eAlam</h1>
+            <h1 className="home-text01 HeadingOne">Choose the best</h1>
+            <span className="home-text02 Lead">
+              <span>
+                Find the story of Creative Tim&apos;s most complex design
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                system and all the work that make this design available.
+              </span>
+            </span>
+            <div className="home-container02">
+              <div className="home-container03">
+                <a href="#contact us" className="home-link">
+                  <PrimaryPinkButton
+                    button="contact us"
+                    className="home-component1"
+                  ></PrimaryPinkButton>
+                </a>
               </div>
+              <OutlineGrayButton button="read more"></OutlineGrayButton>
             </div>
-            <nav
-              data-thq="thq-mobile-menu-nav-links"
-              data-role="Nav"
-              className="home-nav1"
-            >
-              <Link to="/" className="home-navlink1">
-                Home
-              </Link>
-              <Link to="/about-us" className="home-navlink2">
-                About Us
-              </Link>
-              <Link to="/company" className="home-navlink3">
-                Company
-              </Link>
-              <Link to="/contact" className="home-navlink4">
-                Contact
-              </Link>
-              <Link to="/login" className="home-book1 button button-main">
-                <span className="home-text1">Login</span>
-              </Link>
-            </nav>
           </div>
         </div>
-      </header>
-      <Hero1></Hero1>
-      <Gallery5></Gallery5>
-      <Features23></Features23>
-      <Testimonial4></Testimonial4>
+      </div>
+      <img
+        alt="image"
+        src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxjb21wdXRlciUyMHByb2dyYW1pbmd8ZW58MHx8fHwxNzIxMTMyNjg0fDA&amp;ixlib=rb-4.0.3&amp;h=1500"
+        className="home-image"
+      />
+      <section className="home-container04">
+        <div className="home-container05">
+          <h1 className="home-text05 HeadingOne">From nothing to something</h1>
+          <span className="home-text06">
+            <span className="home-text07">
+              The highest status people in human history are those that asked
+              for nothing and gave everything
+            </span>
+          </span>
+        </div>
+        <div className="home-container06">
+          <div className="home-container07">
+            <img
+              alt="image"
+              src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg"
+              className="home-image1"
+            />
+            <div className="home-container08">
+              <img
+                alt="image"
+                src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coding.jpg"
+                className="home-image2"
+              />
+            </div>
+          </div>
+          <div className="home-container09">
+            <img
+              alt="image"
+              src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg"
+              className="home-image3"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="services" className="home-features">
+        <FeatureCard
+          text="Development, testing, maintenance, and documentation tailored to your needs."
+          text1="Development, testing, maintenance, and documentation tailored to your needs."
+          title="Components"
+          newProp="Web Apps"
+          imageSrc="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDgyfHxtb25pdG9yJTIwaWNvbnxlbnwwfHx8fDE3MjExOTkyMzJ8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+          rootClassName="feature-card-root-class-name4"
+        ></FeatureCard>
+        <h1 className="home-text08 HeadingTwo">Our Services</h1>
+        <FeatureCard
+          text="Consulting, customization, development, training, and implementation services."
+          text1="Consulting, customization, development, training, and implementation services."
+          newProp="Salesforce"
+          imageSrc="/my img/icon/image-1500w.png"
+          rootClassName="feature-card-root-class-name6"
+        ></FeatureCard>
+        <FeatureCard
+          text="Consulting, customization, development, training, and implementation services."
+          text1="Consulting, customization, development, training, and implementation services."
+          newProp="Odoo"
+          imageSrc="/my img/odoo-1500w.png"
+          rootClassName="feature-card-root-class-name7"
+        ></FeatureCard>
+      </section>
+      <div id="contact us" className="home-container10">
+        <h1 className="home-text09">Contact Us</h1>
+      </div>
+      <Contact12 rootClassName="contact12-root-class-name"></Contact12>
       <Footer3></Footer3>
     </div>
   )

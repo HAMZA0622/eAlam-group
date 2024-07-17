@@ -1,5 +1,5 @@
 {
-  "name": "soft-ui-pro",
+  "name": "medica-template",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -11,10 +11,7 @@
     "prop-types": "15.7.2"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test --env=jsdom",
-    "eject": "craco eject"
+    "start": "react-scripts start --port 3003"
   },
   "engines": {
     "node": "18.x"

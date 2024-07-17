@@ -1,30 +1,26 @@
 .footer3-footer4 {
   gap: 80px;
   width: 100%;
-  height: 295px;
+  height: auto;
   display: flex;
-  padding: var(--dl-space-space-fiveunits);
+  padding: 80px;
   overflow: hidden;
   position: relative;
   align-items: center;
   flex-shrink: 0;
-  padding-left: 5px;
-  padding-right: var(--dl-space-space-halfunit);
+  padding-top: 80px;
   flex-direction: column;
   justify-content: center;
 }
 .footer3-max-width {
-  gap: var(--dl-space-space-threeunits);
-  width: 1449px;
+  gap: 48px;
   display: flex;
-  align-self: center;
   align-items: center;
   flex-direction: column;
 }
 .footer3-content {
   gap: 32px;
   display: flex;
-  position: relative;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
@@ -32,41 +28,32 @@
 }
 .footer3-logo {
   gap: 24px;
-  width: 588px;
-  height: 28px;
+  width: auto;
   display: flex;
   overflow: hidden;
+  flex-grow: 1;
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
 }
-.footer3-navlink {
+.footer3-link {
   display: contents;
 }
 .footer3-image1 {
-  width: 211px;
-  height: 31px;
+  width: 114px;
+  height: 53px;
   text-decoration: none;
 }
 .footer3-links {
-  gap: var(--dl-space-space-twounits);
-  top: 3px;
-  left: 466px;
+  gap: 32px;
   display: flex;
-  position: absolute;
-  align-self: center;
   align-items: flex-start;
 }
-.footer3-link2 {
-  margin-right: var(--dl-space-space-twounits);
+.footer3-link1 {
   text-decoration: none;
 }
 .footer3-link3 {
-  margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
-}
-.footer3-link4 {
-  margin-right: var(--dl-space-space-twounits);
 }
 .footer3-link5 {
   text-decoration: none;
@@ -79,7 +66,7 @@
   justify-content: flex-end;
 }
 .footer3-credits {
-  gap: var(--dl-space-space-twounits);
+  gap: 32px;
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -91,9 +78,10 @@
   align-items: flex-start;
 }
 .footer3-footer-links {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: 24px;
   display: flex;
-  align-items: flex-start;
+  align-self: flex-end;
+  align-items: flex-end;
 }
 @media(max-width: 991px) {
   .footer3-logo {
@@ -115,7 +103,7 @@
 }
 @media(max-width: 479px) {
   .footer3-max-width {
-    gap: var(--dl-space-space-oneandhalfunits);
+    gap: 24px;
   }
   .footer3-content {
     width: 100%;
