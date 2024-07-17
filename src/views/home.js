@@ -14,7 +14,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Soft UI Pro</title>
+        <title>eAlam Group</title>
         <meta property="og:title" content="Soft UI Pro" />
       </Helmet>
       <Navbar3></Navbar3>
@@ -45,7 +45,7 @@ const Home = (props) => {
                   ></PrimaryPinkButton>
                 </a>
               </div>
-              <OutlineGrayButton button="read more"></OutlineGrayButton>
+              {/* <OutlineGrayButton button="read more"></OutlineGrayButton> */}
             </div>
           </div>
         </div>
