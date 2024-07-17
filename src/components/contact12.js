@@ -78,7 +78,7 @@ Contact12.defaultProps = {
   heading1: 'Contact Us',
   location1GoogleMap:
     'https://maps.google.com/maps?q=Gulberg+Business+centre%2C+Gulberg+Green%2C+Islamabad&t=&z=13&ie=UTF8&iwloc=&output=embed',
-  phone1: '+92312-9393165',
+  phone1: '+92-312-939-3165',
   content1: 'Feel free to reach out to us for any inquiries or collaborations.',
 }
 
