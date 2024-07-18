@@ -143,8 +143,6 @@
   gap: 32px;
   display: flex;
 }
-
-
 @media(max-width: 767px) {
   .navbar3-navbar-interactive {
     padding-left: 32px;
@@ -171,5 +169,16 @@
   }
   .navbar3-mobile-menu {
     padding: var(--dl-space-space-unit);
+  }
+}
+
+/* changes */
+@media(max-width: 900px) {
+  .navbar3-navbar-interactive {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .navbar3-text {
+    display: none;
   }
 }

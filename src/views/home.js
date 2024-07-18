@@ -102,7 +102,7 @@ const Home = (props) => {
         <FeatureCard
           text="Consulting, customization, development, training, and implementation services."
           text1="Consulting, customization, development, training, and implementation services."
-          newProp="Salesforce"
+          newProp="Salesforce Partner"
           imageSrc="/my img/icon/image-1500w.png"
           rootClassName="feature-card-root-class-name6"
         ></FeatureCard>
