@@ -25,7 +25,7 @@ const Home = (props) => {
             <h1 className="home-text01 HeadingOne">Choose the best</h1>
             <span className="home-text02 Lead">
               <span>
-              Where others falter, we excel. In the face of challenges, our resilience and determination set us apart.
+              driven by resilience, determination, and an unwavering commitment to surpass expectations and consistently deliver outstanding results.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -33,7 +33,7 @@ const Home = (props) => {
                 />
               </span>
               <span>
-              Our commitment to excellence drives us to not only meet expectations but to surpass them, consistently delivering outstanding results.
+              and consistently deliver outstanding results.
               </span>
             </span>
             <div className="home-container02">
