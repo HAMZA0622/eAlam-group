@@ -74,7 +74,7 @@ const Contact12 = (props) => {
 Contact12.defaultProps = {
   rootClassName: '',
   address1: 'Gulberg Business centre,  Gulberg Green, Islamabad, Pakistan',
-  email1: 'info@ealamgroup.pk',
+  email1: 'Contact@ealamgroup.pk',
   heading1: 'Contact Us',
   location1GoogleMap:
     'https://maps.google.com/maps?q=Gulberg+Business+centre%2C+Gulberg+Green%2C+Islamabad&t=&z=13&ie=UTF8&iwloc=&output=embed',

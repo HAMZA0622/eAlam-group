@@ -25,7 +25,7 @@ const Home = (props) => {
             <h1 className="home-text01 HeadingOne">Choose the best</h1>
             <span className="home-text02 Lead">
               <span>
-                Find the story of Creative Tim&apos;s most complex design
+              Where others falter, we excel. In the face of challenges, our resilience and determination set us apart.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -33,7 +33,7 @@ const Home = (props) => {
                 />
               </span>
               <span>
-                system and all the work that make this design available.
+              Our commitment to excellence drives us to not only meet expectations but to surpass them, consistently delivering outstanding results.
               </span>
             </span>
             <div className="home-container02">
