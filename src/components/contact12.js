@@ -73,7 +73,7 @@ const Contact12 = (props) => {
 
 Contact12.defaultProps = {
   rootClassName: '',
-  address1: 'Gulberg Business centre,  Gulberg Green, Islamabad, Pakistan',
+  address1: 'Gulberg Business Centre,  Gulberg Green, Islamabad, Pakistan',
   email1: 'contact@ealamgroup.pk',
   heading1: 'Contact Us',
   location1GoogleMap:
